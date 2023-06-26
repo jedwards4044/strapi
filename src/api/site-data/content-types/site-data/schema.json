@@ -4,7 +4,8 @@
   "info": {
     "singularName": "site-data",
     "pluralName": "site-datas",
-    "displayName": "SiteData"
+    "displayName": "SiteData",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,12 @@
     },
     "globalStyles": {
       "type": "string"
+    },
+    "Colors": {
+      "type": "dynamiczone",
+      "components": [
+        "colors.colors"
+      ]
     }
   }
 }
