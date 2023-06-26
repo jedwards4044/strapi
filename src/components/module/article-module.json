@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_module_article_modules",
+  "info": {
+    "displayName": "Article Module",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "border": {
+      "type": "boolean"
+    },
+    "lazyload": {
+      "type": "boolean"
+    },
+
+    "align": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "number"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.article-item"
+    }
+  }
+}

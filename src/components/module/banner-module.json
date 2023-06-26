@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_module_banner_modules",
+  "info": {
+    "displayName": "Banner Module",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.banner-item"
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

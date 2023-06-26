@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_item_banner_items",
+  "info": {
+    "displayName": "Banner item"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Subheadline": {
+      "type": "string"
+    },
+    "background": {
+      "type": "boolean"
+    }
+  }
+}

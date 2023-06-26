@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_buttons_item_buttons",
+  "info": {
+    "displayName": "Item Button"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "ext": {
+      "type": "boolean"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
