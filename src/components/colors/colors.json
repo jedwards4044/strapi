@@ -8,188 +8,225 @@
   "attributes": {
     "logoColor": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#2482cb"
     },
     "headingColor": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#525252"
     },
     "subHeadingColor": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#ff7600"
     },
     "textColor": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#0f181f"
     },
     "linkColor": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#0f181f"
     },
     "linkHover": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#0f181f"
     },
     "btnText": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#ffbe87"
     },
     "btnBackground": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#0f181f"
     },
     "textColorAccent": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#0f181f"
     },
     "heroSubheadline": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#0d1d24"
     },
     "heroText": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#8a6301"
     },
     "heroBtnText": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#ff7700"
     },
     "heroBtnBackground": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#ff7700"
     },
     "heroLink": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#454545"
     },
     "captionText": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "rgba(255,159,76,1)"
     },
     "captionBackground": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#ff7700"
     },
     "NavText": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "rgba(247,247,247,1)"
     },
     "navHover": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#ffda82"
     },
     "navCurrent": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "rgba(11,18,23,1)"
     },
     "backgroundMain": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "rgba(0,0,0,.2)"
     },
     "bckdContent": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "rgba(65,121,135,1)"
     },
     "headerBackground": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "rgba(16,37,46,1)"
     },
     "BckdHeaderSocial": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#12343d"
     },
     "accentBackgroundColor": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#5b97a6"
     },
     "backgroundHero": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#ffc83d"
     },
     "footerBackground": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "rgba(16,37,46,1)"
     },
     "footerText": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#dbf8ff"
     },
     "footerLink": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#dbf8ff"
     },
     "promoText": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#ffffff"
     },
     "promoColor": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#3eb183"
     },
     "promoColor2": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#00a4fc"
     },
     "promoColor3": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#c9b426"
     },
     "promoColor4": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#e02aa0"
     },
     "promoColor5": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#ff0000"
     },
     "promoColor6": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#ff0000"
     },
     "heroLinkHover": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "#30829b"
     },
     "mycolor": {
       "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+
+      "customField": "plugin::color-picker.color",
+      "default": "rgb(0,0,0,0)"
     }
   }
 }
