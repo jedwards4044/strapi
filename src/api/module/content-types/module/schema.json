@@ -11,12 +11,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "page": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::page.page",
-      "inversedBy": "modules"
-    },
     "name": {
       "type": "string"
     },

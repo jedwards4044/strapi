@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_module_article_modules",
+  "collectionName": "components_module_parallax_modules",
   "info": {
-    "displayName": "Article Module",
+    "displayName": "Parallax Module",
     "description": ""
   },
   "options": {},
@@ -41,7 +41,7 @@
     "items": {
       "type": "component",
       "repeatable": true,
-      "component": "item.article-item"
+      "component": "item.parallax-item"
     }
   }
 }

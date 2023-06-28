@@ -15,13 +15,21 @@
     "siteIdentifier": {
       "type": "string"
     },
-    "globalStyles": {
-      "type": "string"
-    },
     "Colors": {
       "type": "dynamiczone",
       "components": [
         "colors.colors"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
       ]
     }
   }

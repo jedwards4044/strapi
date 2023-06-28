@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_item_banner_items",
+  "collectionName": "components_item_parallax_items",
   "info": {
-    "displayName": "Banner item"
+    "displayName": "Parallax item"
   },
   "options": {},
   "attributes": {
