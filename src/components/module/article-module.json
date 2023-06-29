@@ -21,6 +21,10 @@
       "type": "string",
       "default": "1"
     },
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    },
 
     "imgsize": {
       "type": "enumeration",

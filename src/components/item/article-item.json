@@ -16,12 +16,7 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "buttons": {
       "type": "component",
@@ -46,11 +41,16 @@
     },
     "align": {
       "type": "enumeration",
-      "enum": [
-        "left",
-        "right",
-        "center"
-      ]
+      "enum": ["left", "right", "center"]
+    },
+    "headSize": {
+      "type": "enumeration",
+      "enum": ["XS", "SM", "MD", "LG", "XL"]
+    },
+    "descSize": {
+      "type": "enumeration",
+      "enum": ["XS", "SM", "MD", "LG", "XL"],
+      "default": ""
     }
   }
 }
