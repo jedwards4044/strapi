@@ -1,1 +1,15 @@
-{"orgId":"o8LSWEG7bG6tvLPwrYzHKWmu","projectId":"prj_03gmFq6E79KtLyrkfiQTnJXOhrNv"}
+{
+  "projectId": "prj_xMbB0LnkUrar5vDWbQA9jDKUzDDE",
+  "orgId": "o8LSWEG7bG6tvLPwrYzHKWmu",
+  "settings": {
+    "createdAt": 1688416420943,
+    "framework": null,
+    "devCommand": "npm run develop",
+    "installCommand": "npm install",
+    "buildCommand": "npm run build",
+    "outputDirectory": "build",
+    "rootDirectory": "src",
+    "directoryListing": false,
+    "nodeVersion": "14.x"
+  }
+}
