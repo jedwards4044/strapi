@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_item_article_items",
+  "collectionName": "components_item_photogallery_items",
   "info": {
-    "displayName": "Article Item",
+    "displayName": "Photogallery Item",
     "description": ""
   },
   "options": {},

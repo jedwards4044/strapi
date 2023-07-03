@@ -15,12 +15,6 @@
     "siteIdentifier": {
       "type": "string"
     },
-    "Colors": {
-      "type": "dynamiczone",
-      "components": [
-        "colors.colors"
-      ]
-    },
     "logo": {
       "type": "media",
       "multiple": false,
@@ -31,6 +25,11 @@
         "videos",
         "audios"
       ]
+    },
+    "colors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "colors.colors"
     }
   }
 }

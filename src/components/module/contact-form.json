@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_module_contact_forms",
+  "info": {
+    "displayName": "Contact Form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "formTitle": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "webhookUrl": {
+      "type": "string"
+    }
+  }
+}

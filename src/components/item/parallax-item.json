@@ -1,14 +1,15 @@
 {
   "collectionName": "components_item_parallax_items",
   "info": {
-    "displayName": "Parallax item"
+    "displayName": "Parallax Item",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "headline": {
       "type": "string"
     },
-    "subheadline": {
+    "subheader": {
       "type": "string"
     },
     "image": {
@@ -41,6 +42,14 @@
     "align": {
       "type": "enumeration",
       "enum": ["left", "right", "center"]
+    },
+    "headSize": {
+      "type": "enumeration",
+      "enum": ["XS", "SM", "MD", "LG", "XL"]
+    },
+    "descSize": {
+      "type": "enumeration",
+      "enum": ["XS", "SM", "MD", "LG", "XL"]
     }
   }
 }

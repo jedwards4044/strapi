@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_item_article_items",
+  "collectionName": "components_item_photogrid_items",
   "info": {
-    "displayName": "Article Item",
+    "displayName": "Photogrid Item",
     "description": ""
   },
   "options": {},

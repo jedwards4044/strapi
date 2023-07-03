@@ -17,7 +17,12 @@
       "components": [
         "module.article-module",
         "module.banner-module",
-        "module.parallax-module"
+        "module.parallax-module",
+        "module.contact-form",
+        "module.card-module",
+        "module.photogallery-module",
+        "module.photogrid-module",
+        "module.testimonials-module"
       ]
     },
     "name": {

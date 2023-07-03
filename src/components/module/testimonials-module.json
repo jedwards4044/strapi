@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_module_testimonials_modules",
+  "info": {
+    "displayName": "Testimonials Module",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "border": {
+      "type": "boolean",
+      "default": false
+    },
+    "lazyload": {
+      "type": "boolean",
+      "default": true
+    },
+    "columns": {
+      "type": "string",
+      "default": "1"
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "useCarousel": {
+      "type": "boolean",
+      "default": false
+    },
+
+    "imgsize": {
+      "type": "enumeration",
+      "enum": [
+        "square_1_1",
+        "landscape_4_3",
+        "landscape_3_2",
+        "portrait_3_4",
+        "portrait_2_3",
+        "widescreen_16_9",
+        "widescreen_3_1",
+        "widescreen_2_4_1",
+        "no_sizing",
+        "round_1_1"
+      ],
+      "default": "square_1_1"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.testimonials-item"
+    }
+  }
+}
