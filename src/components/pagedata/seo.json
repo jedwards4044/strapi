@@ -1,7 +1,8 @@
 {
   "collectionName": "components_pagedata_seos",
   "info": {
-    "displayName": "seo"
+    "displayName": "seo",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,7 +10,7 @@
       "type": "string"
     },
     "descr": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

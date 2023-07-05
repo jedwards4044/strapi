@@ -17,10 +17,7 @@
       "type": "boolean",
       "default": true
     },
-    "columns": {
-      "type": "string",
-      "default": "1"
-    },
+
     "disabled": {
       "type": "boolean",
       "default": false
@@ -29,7 +26,10 @@
       "type": "boolean",
       "default": false
     },
-
+    "imageOverlay": {
+      "type": "boolean",
+      "default": false
+    },
     "imgsize": {
       "type": "enumeration",
       "enum": [

@@ -18,8 +18,10 @@
       "default": true
     },
     "columns": {
-      "type": "string",
-      "default": "1"
+      "type": "enumeration",
+      "enum": ["one", "two", "three"],
+      "default": "one",
+      "required": false
     },
     "disabled": {
       "type": "boolean",

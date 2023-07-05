@@ -14,4 +14,8 @@ module.exports = () => ({
     },
     debug: false,
   },
+  pool: {
+    min: 0,
+    max: 20,
+  },
 });

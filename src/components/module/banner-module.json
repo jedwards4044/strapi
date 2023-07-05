@@ -17,10 +17,6 @@
       "type": "boolean",
       "default": true
     },
-    "columns": {
-      "type": "string",
-      "default": "1"
-    },
 
     "imgsize": {
       "type": "enumeration",
