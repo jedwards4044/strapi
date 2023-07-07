@@ -17,6 +17,16 @@
       "type": "boolean",
       "default": true
     },
+    "columns": {
+      "type": "enumeration",
+      "enum": ["one", "two", "three", "four"],
+      "default": "one",
+      "required": false
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    },
 
     "imgsize": {
       "type": "enumeration",
@@ -32,7 +42,7 @@
         "no_sizing",
         "round_1_1"
       ],
-      "default": "square_1_1"
+      "default": "widescreen_16_9"
     },
     "items": {
       "type": "component",

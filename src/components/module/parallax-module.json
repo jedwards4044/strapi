@@ -36,7 +36,7 @@
         "no_sizing",
         "round_1_1"
       ],
-      "default": "square_1_1"
+      "default": "widescreen_16_9"
     },
     "items": {
       "type": "component",

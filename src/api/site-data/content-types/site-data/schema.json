@@ -4,7 +4,7 @@
   "info": {
     "singularName": "site-data",
     "pluralName": "site-datas",
-    "displayName": "SiteData",
+    "displayName": "Site Data",
     "description": ""
   },
   "options": {
@@ -30,6 +30,31 @@
       "type": "component",
       "repeatable": false,
       "component": "colors.colors"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "streetAddress": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.phone"
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.social-media"
     }
   }
 }

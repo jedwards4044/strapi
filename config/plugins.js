@@ -24,8 +24,9 @@ module.exports = ({ env }) => ({
         secretAccessKey: process.env.CMS_SECRET_ACCESS_KEY_ID,
         region: process.env.CMS_DEFAULT_REGION,
         params: {
-          Bucket: process.env.S3_BUCKET_NAME,
+          Bucket: `${process.env.S3_BUCKET_NAME}/strapi-images`,
         },
+        rootPath: "strapi",
       },
       // These parameters could solve issues with ACL public-read access — see [this issue](https://github.com/strapi/strapi/issues/5868) for details
       actionOptions: {

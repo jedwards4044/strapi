@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_contact_social_medias",
+  "info": {
+    "displayName": "socialMedia"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}

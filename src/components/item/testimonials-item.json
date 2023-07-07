@@ -31,6 +31,12 @@
       "type": "boolean",
       "default": false
     },
+    "stars": {
+      "type": "enumeration",
+      "enum": ["one", "two", "three", "four", "five"],
+      "default": "",
+      "required": false
+    },
     "isFeatured": {
       "type": "boolean",
       "default": false
