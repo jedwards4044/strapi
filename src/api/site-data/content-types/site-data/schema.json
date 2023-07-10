@@ -19,12 +19,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "colors": {
       "type": "component",
@@ -57,14 +52,73 @@
       "component": "contact.social-media"
     },
     "favicon": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "headlineFont": {
+      "type": "enumeration",
+      "enum": [
+        "Lato",
+        "Josefin-Sans",
+        "Anton",
+        "Arial",
+        "Arvo",
+        "Helvetica",
+        "Lora",
+        "Merriweather-Sans",
+        "Montserrat",
+        "Oswald",
+        "Open-Sans",
+        "Raleway",
+        "Roboto",
+        "Times-New-Roman",
+        "Ubuntu"
+      ],
+      "default": "Lato"
+    },
+    "bodyFont": {
+      "type": "enumeration",
+      "enum": [
+        "Lato",
+        "Josefin-Sans",
+        "Anton",
+        "Arial",
+        "Arvo",
+        "Helvetica",
+        "Lora",
+        "Merriweather-Sans",
+        "Montserrat",
+        "Oswald",
+        "Open-Sans",
+        "Raleway",
+        "Roboto",
+        "Times-New-Roman",
+        "Ubuntu"
+      ],
+      "default": "Lato"
+    },
+    "featFont": {
+      "type": "enumeration",
+      "enum": [
+        "Lato",
+        "Josefin-Sans",
+        "Anton",
+        "Arial",
+        "Arvo",
+        "Helvetica",
+        "Lora",
+        "Merriweather-Sans",
+        "Montserrat",
+        "Oswald",
+        "Open-Sans",
+        "Raleway",
+        "Roboto",
+        "Times-New-Roman",
+        "Ubuntu"
+      ],
+      "default": "Lato"
     }
   }
 }
