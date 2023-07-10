@@ -14,17 +14,17 @@
     "headingColor": {
       "type": "customField",
       "customField": "plugin::color-picker.color",
-      "default": "#525252"
+      "default": "#fff"
     },
     "subHeadingColor": {
       "type": "customField",
       "customField": "plugin::color-picker.color",
-      "default": "#ff7600"
+      "default": "#fff"
     },
     "textColor": {
       "type": "customField",
       "customField": "plugin::color-picker.color",
-      "default": "#0f181f"
+      "default": "#fff"
     },
     "linkColor": {
       "type": "customField",
@@ -79,7 +79,7 @@
     "captionText": {
       "type": "customField",
       "customField": "plugin::color-picker.color",
-      "default": "rgba(255,159,76,1)"
+      "default": "#fff"
     },
     "captionBackground": {
       "type": "customField",
@@ -94,12 +94,12 @@
     "navHover": {
       "type": "customField",
       "customField": "plugin::color-picker.color",
-      "default": "#ffda82"
+      "default": "#3EB183"
     },
     "navCurrent": {
       "type": "customField",
       "customField": "plugin::color-picker.color",
-      "default": "rgba(11,18,23,1)"
+      "default": "#3EB183"
     },
     "backgroundMain": {
       "type": "customField",
