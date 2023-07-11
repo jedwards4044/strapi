@@ -21,7 +21,10 @@
       "type": "boolean",
       "default": false
     },
-
+    "useAnchor": {
+      "type": "boolean",
+      "default": false
+    },
     "imgsize": {
       "type": "enumeration",
       "enum": [
