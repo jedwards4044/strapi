@@ -37,7 +37,8 @@
       "component": "pagedata.seo"
     },
     "homePage": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     }
   }
 }
