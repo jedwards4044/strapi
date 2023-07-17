@@ -7,9 +7,7 @@ export default {
     auth: {
       logo: Logo,
     },
-    menu: {
-      logo: Logo,
-    },
+
     // Extend the translations
     translations: {
       en: {

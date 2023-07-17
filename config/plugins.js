@@ -16,6 +16,7 @@ module.exports = ({ env }) => ({
       },
     },
   },
+
   upload: {
     config: {
       provider: "aws-s3",
@@ -38,5 +39,14 @@ module.exports = ({ env }) => ({
         },
       },
     },
+  },
+  "ai-text-generation": {
+    enabled: true,
+    config: {
+      apiToken: process.env.OPEN_AI_API_TOKEN,
+    },
+  },
+  "strapi-chatgpt": {
+    enabled: true,
   },
 });

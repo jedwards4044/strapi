@@ -8,12 +8,6 @@
   "attributes": {
     "formTitle": {
       "type": "string"
-    },
-    "email": {
-      "type": "email"
-    },
-    "webhookUrl": {
-      "type": "string"
     }
   }
 }

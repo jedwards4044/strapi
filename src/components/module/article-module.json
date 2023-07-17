@@ -9,6 +9,10 @@
     "title": {
       "type": "string"
     },
+    "useAnchor": {
+      "type": "boolean",
+      "default": false
+    },
     "border": {
       "type": "boolean",
       "default": false
@@ -24,10 +28,6 @@
       "required": false
     },
     "disabled": {
-      "type": "boolean",
-      "default": false
-    },
-    "useAnchor": {
       "type": "boolean",
       "default": false
     },

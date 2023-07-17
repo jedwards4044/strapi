@@ -9,6 +9,10 @@
     "title": {
       "type": "string"
     },
+    "useAnchor": {
+      "type": "boolean",
+      "default": false
+    },
     "border": {
       "type": "boolean",
       "default": false

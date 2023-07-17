@@ -39,6 +39,13 @@
     "homePage": {
       "type": "boolean",
       "default": false
+    },
+    "ai": {
+      "type": "customField",
+      "options": {
+        "length": "250"
+      },
+      "customField": "plugin::ai-text-generation.text-ai"
     }
   }
 }

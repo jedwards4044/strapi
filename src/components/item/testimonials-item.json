@@ -16,7 +16,12 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "buttons": {
       "type": "component",
@@ -33,8 +38,14 @@
     },
     "stars": {
       "type": "enumeration",
-      "enum": ["one", "two", "three", "four", "five"],
-      "default": "",
+      "enum": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "default": "five",
       "required": false
     },
     "isFeatured": {
@@ -47,15 +58,31 @@
     },
     "align": {
       "type": "enumeration",
-      "enum": ["left", "right", "center"]
+      "enum": [
+        "left",
+        "right",
+        "center"
+      ]
     },
     "headSize": {
       "type": "enumeration",
-      "enum": ["XS", "SM", "MD", "LG", "XL"]
+      "enum": [
+        "XS",
+        "SM",
+        "MD",
+        "LG",
+        "XL"
+      ]
     },
     "descSize": {
       "type": "enumeration",
-      "enum": ["XS", "SM", "MD", "LG", "XL"]
+      "enum": [
+        "XS",
+        "SM",
+        "MD",
+        "LG",
+        "XL"
+      ]
     }
   }
 }
