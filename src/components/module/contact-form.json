@@ -2,7 +2,8 @@
   "collectionName": "components_module_contact_forms",
   "info": {
     "displayName": "Contact Form",
-    "description": ""
+    "description": "",
+    "icon": "envelop"
   },
   "options": {},
   "attributes": {

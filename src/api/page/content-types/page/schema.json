@@ -22,7 +22,8 @@
         "module.card-module",
         "module.photogallery-module",
         "module.photogrid-module",
-        "module.testimonials-module"
+        "module.testimonials-module",
+        "module.map-module"
       ]
     },
     "name": {

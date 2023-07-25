@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_module_map_modules",
+  "info": {
+    "displayName": "Map Module",
+    "icon": "earth"
+  },
+  "options": {},
+  "attributes": {
+    "mapTitle": {
+      "type": "string"
+    }
+  }
+}
