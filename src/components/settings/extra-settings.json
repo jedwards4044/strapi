@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_settings_extra_settings",
+  "info": {
+    "displayName": "Extra Settings",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "lazyload": {
+      "type": "boolean",
+      "default": true
+    },
+    "border": {
+      "type": "boolean",
+      "default": false
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "imgsize": {
+      "type": "enumeration",
+      "enum": [
+        "square_1_1",
+        "landscape_4_3",
+        "landscape_3_2",
+        "portrait_3_4",
+        "portrait_2_3",
+        "widescreen_16_9",
+        "widescreen_3_1",
+        "widescreen_2_4_1",
+        "no_sizing",
+        "round_1_1"
+      ],
+      "default": "widescreen_16_9"
+    }
+  }
+}

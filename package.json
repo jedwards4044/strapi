@@ -19,8 +19,6 @@
     "@strapi/strapi": "4.11.7",
     "ai-text-generation": "^0.2.0",
     "patch-package": "^7.0.2",
-    "pg": "^8.11.1",
-    "pg-connection-string": "^2.6.1",
     "sqlite3": "^5.1.6",
     "strapi-chatgpt": "^1.0.2",
     "strapi-plugin-duplicate-button": "^1.1.11",

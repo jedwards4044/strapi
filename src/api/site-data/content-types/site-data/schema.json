@@ -130,6 +130,10 @@
         "Ubuntu"
       ],
       "default": "Josefin-Sans"
+    },
+    "singlePageSite": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
