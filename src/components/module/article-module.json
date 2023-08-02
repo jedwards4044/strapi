@@ -27,12 +27,13 @@
     "items": {
       "type": "component",
       "repeatable": true,
-      "component": "item.article-item"
+      "component": "item.module-item"
     },
     "extraSettings": {
       "type": "component",
       "repeatable": false,
-      "component": "settings.extra-settings"
+      "component": "settings.extra-settings",
+      "required": true
     }
   }
 }

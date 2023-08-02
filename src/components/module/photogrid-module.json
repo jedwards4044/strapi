@@ -14,14 +14,6 @@
       "type": "boolean",
       "default": false
     },
-    "border": {
-      "type": "boolean",
-      "default": false
-    },
-    "lazyload": {
-      "type": "boolean",
-      "default": true
-    },
     "columns": {
       "type": "enumeration",
       "enum": ["one", "two", "three", "four"],
@@ -32,27 +24,16 @@
       "type": "boolean",
       "default": false
     },
-
-    "imgsize": {
-      "type": "enumeration",
-      "enum": [
-        "square_1_1",
-        "landscape_4_3",
-        "landscape_3_2",
-        "portrait_3_4",
-        "portrait_2_3",
-        "widescreen_16_9",
-        "widescreen_3_1",
-        "widescreen_2_4_1",
-        "no_sizing",
-        "round_1_1"
-      ],
-      "default": "widescreen_16_9"
-    },
     "items": {
       "type": "component",
       "repeatable": true,
-      "component": "item.photogrid-item"
+      "component": "item.module-item"
+    },
+    "extraSettings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.extra-settings",
+      "required": true
     }
   }
 }

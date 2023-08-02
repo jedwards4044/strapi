@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_settings_item_settings",
+  "info": {
+    "displayName": "Item Settings",
+    "icon": "typhoon"
+  },
+  "options": {},
+  "attributes": {
+    "headSize": {
+      "type": "enumeration",
+      "enum": ["XS", "SM", "MD", "LG", "XL"]
+    },
+    "descSize": {
+      "type": "enumeration",
+      "enum": ["XS", "SM", "MD", "LG", "XL"]
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "default": false
+    },
+    "headerTagH1": {
+      "type": "boolean",
+      "default": false
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

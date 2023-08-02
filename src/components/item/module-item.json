@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_item_banner_items",
+  "collectionName": "components_item_module_items",
   "info": {
-    "displayName": "Banner Item",
+    "displayName": "Module Item",
     "description": ""
   },
   "options": {},

@@ -27,14 +27,6 @@
     "desc": {
       "type": "text"
     },
-    "headerTagH1": {
-      "type": "boolean",
-      "default": false
-    },
-    "isFeatured": {
-      "type": "boolean",
-      "default": false
-    },
     "disabled": {
       "type": "boolean",
       "default": false
@@ -44,13 +36,11 @@
       "enum": ["left", "right", "center"],
       "default": "center"
     },
-    "headSize": {
-      "type": "enumeration",
-      "enum": ["XS", "SM", "MD", "LG", "XL"]
-    },
-    "descSize": {
-      "type": "enumeration",
-      "enum": ["XS", "SM", "MD", "LG", "XL"]
+    "extraItemSettings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.item-settings",
+      "required": true
     }
   }
 }
