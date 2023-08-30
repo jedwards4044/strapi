@@ -1,7 +1,8 @@
 const path = require("path");
 
-module.exports = ({ env }) => {
+/* module.exports = ({ env }) => {
   const client = env("DATABASE_CLIENT", "postgres");
+  console.log("client");
 
   const connections = {
     mysql: {
@@ -57,13 +58,15 @@ module.exports = ({ env }) => {
       connection: {
         client: "postgres",
         connection: {
-          host: env("DATABASE_HOST", "127.0.0.1"),
-          port: env.int("DATABASE_PORT", 5432),
-          database: env("DATABASE_NAME", "strapi-database"),
-          user: env("DATABASE_USERNAME", ""),
-          password: env("DATABASE_PASSWORD", ""),
+          host: env("POSTGRES_HOST", "localhost"), // Use your PostgreSQL host from environment variable
+          port: env.int("DATABASE_PORT", 5432), // You may need to adjust the port if it's different
+          database: env("POSTGRES_DATABASE", "your-database-name"), // Use POSTGRES_DATABASE as the database name
+          username: env("POSTGRES_USER", "your-username"), // Use POSTGRES_USER as the username
+          password: env("POSTGRES_PASSWORD", "your-password"), // Use POSTGRES_PASSWORD as the password
+          ssl: env.bool("DATABASE_SSL", false), // Set this to true if you need SSL
         },
-        useNullAsDefault: true,
+        debug: false,
+        //useNullAsDefault: true,
       },
       pool: {
         min: env.int("DATABASE_POOL_MIN", 2),
@@ -89,4 +92,44 @@ module.exports = ({ env }) => {
       acquireConnectionTimeout: env.int("DATABASE_CONNECTION_TIMEOUT", 60000),
     },
   };
-};
+}; */
+/* module.exports = ({ env }) => ({
+  defaultConnection: "default",
+  connections: {
+    default: {
+      connector: "bookshelf",
+      settings: {
+        client: "postgres",
+        host: env("POSTGRES_HOST", "localhost"), // Use your PostgreSQL host from environment variable
+        port: env.int("DATABASE_PORT", 5432), // You may need to adjust the port if it's different
+        database: env("POSTGRES_DATABASE", "your-database-name"), // Use POSTGRES_DATABASE as the database name
+        username: env("POSTGRES_USER", "your-username"), // Use POSTGRES_USER as the username
+        password: env("POSTGRES_PASSWORD", "your-password"), // Use POSTGRES_PASSWORD as the password
+        ssl: env.bool("DATABASE_SSL", false), // Set this to true if you need SSL
+      },
+      options: {
+        ssl: env.bool("DATABASE_SSL", false), // Set this to true if you need SSL
+      },
+    },
+  },
+}); */
+// strapi-api/config/database.js
+module.exports = ({ env }) => ({
+  connection: {
+    client: "postgres",
+    connection: {
+      host: env("POSTGRES_HOST", "localhost"), // Use your PostgreSQL host from environment variable
+      port: env.int("DATABASE_PORT", 5432), // You may need to adjust the port if it's different
+      database: env("POSTGRES_DATABASE", "your-database-name"), // Use POSTGRES_DATABASE as the database name
+      user: env("POSTGRES_USER", "your-username"), // Use POSTGRES_USER as the username
+      password: env("POSTGRES_PASSWORD", "your-password"), // Use POSTGRES_PASSWORD as the password
+      ssl: {
+        rejectUnauthorized: false, // This line disables certificate validation
+      },
+    },
+    options: {
+      ssl: true, // Enable SSL mode
+    },
+    debug: false,
+  },
+});
