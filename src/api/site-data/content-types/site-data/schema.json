@@ -134,6 +134,10 @@
     "singlePageSite": {
       "type": "boolean",
       "default": false
+    },
+    "usePreviewMode": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

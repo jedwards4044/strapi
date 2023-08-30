@@ -34,6 +34,10 @@
       "repeatable": false,
       "component": "settings.extra-settings",
       "required": true
+    },
+    "Body": {
+      "type": "dynamiczone",
+      "components": ["item.banner-item"]
     }
   }
 }

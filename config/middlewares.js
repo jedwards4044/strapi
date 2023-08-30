@@ -10,6 +10,7 @@ module.exports = [
           "img-src": ["'self'", "data:", "blob:", "*.amazonaws.com"],
           "media-src": ["'self'", "data:", "blob:"],
           upgradeInsecureRequests: null,
+          "frame-src": ["'self'", "http:", "https:"],
         },
       },
     },

@@ -47,6 +47,10 @@
         "length": "250"
       },
       "customField": "plugin::ai-text-generation.text-ai"
+    },
+    "page_preview": {
+      "type": "customField",
+      "customField": "plugin::pagepreview.page-preview"
     }
   }
 }

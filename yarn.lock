@@ -846,6 +846,13 @@
     "@monaco-editor/loader" "^1.3.2"
     "prop-types" "^15.7.2"
 
+"@neondatabase/serverless@0.5.6":
+  "integrity" "sha512-Ru0lG6W/nQtHRkDFVQFF+1PJYx8wd3jereln0Ep0YkiHey50hjTLVUycQoE4X977605pXMuFWORweuktzph+Xg=="
+  "resolved" "https://registry.npmjs.org/@neondatabase/serverless/-/serverless-0.5.6.tgz"
+  "version" "0.5.6"
+  dependencies:
+    "@types/pg" "8.6.6"
+
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
   "resolved" "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -2293,6 +2300,15 @@
   "resolved" "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz"
   "version" "4.0.0"
 
+"@types/pg@8.6.6":
+  "integrity" "sha512-O2xNmXebtwVekJDD+02udOncjVcMZQuTEQEMpKJ0ZRf5E7/9JJX3izhKUcUifBkyKpljyUM6BTgy2trmviKlpw=="
+  "resolved" "https://registry.npmjs.org/@types/pg/-/pg-8.6.6.tgz"
+  "version" "8.6.6"
+  dependencies:
+    "@types/node" "*"
+    "pg-protocol" "*"
+    "pg-types" "^2.2.0"
+
 "@types/prop-types@*":
   "integrity" "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w=="
   "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
@@ -2453,6 +2469,16 @@
     "@codemirror/theme-one-dark" "^6.0.0"
     "@uiw/codemirror-extensions-basic-setup" "4.21.7"
     "codemirror" "^6.0.0"
+
+"@vercel/postgres@^0.4.1":
+  "integrity" "sha512-rYlNnaXrr2/NWK/OodhAUyed0bomaizKKC8XXjNYv8I1K3m75oocP4IGTcBpZe76VCrHuaKW5d6jLQnuRRoNKg=="
+  "resolved" "https://registry.npmjs.org/@vercel/postgres/-/postgres-0.4.1.tgz"
+  "version" "0.4.1"
+  dependencies:
+    "@neondatabase/serverless" "0.5.6"
+    "bufferutil" "4.0.7"
+    "utf-8-validate" "6.0.3"
+    "ws" "8.13.0"
 
 "@webassemblyjs/ast@^1.11.5", "@webassemblyjs/ast@1.11.6":
   "integrity" "sha512-IN1xI7PwOvLPgjcf180gC1bqn3q/QaOCwYUahIOhbYUu8KA/3tw2RT/T0Gidi1l7Hhj5D/INhJxiICObqpMu4Q=="
@@ -3276,11 +3302,6 @@
   "resolved" "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz"
   "version" "1.1.2"
 
-"buffer-writer@2.0.0":
-  "integrity" "sha512-a7ZpuTZU1TRtnwyCNW3I5dc0wWNC3VR9S++Ewyk2HHZdrO3CQJqSpd+95Us590V6AL7JqUAH2IwZ/398PmNFgw=="
-  "resolved" "https://registry.npmjs.org/buffer-writer/-/buffer-writer-2.0.0.tgz"
-  "version" "2.0.0"
-
 "buffer@^5.1.0", "buffer@^5.5.0":
   "integrity" "sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ=="
   "resolved" "https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz"
@@ -3297,6 +3318,13 @@
     "base64-js" "^1.0.2"
     "ieee754" "^1.1.4"
     "isarray" "^1.0.0"
+
+"bufferutil@^4.0.1", "bufferutil@4.0.7":
+  "integrity" "sha512-kukuqc39WOHtdxtw4UScxF/WVnMFVSQVKhtx3AjZJzhd0RGZZldcrfSEbVsWWe6KNH253574cq5F+wpv0G9pJw=="
+  "resolved" "https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.7.tgz"
+  "version" "4.0.7"
+  dependencies:
+    "node-gyp-build" "^4.3.0"
 
 "buildmail@3.10.0":
   "integrity" "sha512-6e5sDN/pl3en5Klqdfyir7LEIBiFr9oqZuvYaEyVwjxpIbBZN+98e0j87Fz2Ukl8ud32rbk9VGOZAnsOZ7pkaA=="
@@ -7604,6 +7632,11 @@
   "resolved" "https://registry.npmjs.org/node-forge/-/node-forge-1.3.1.tgz"
   "version" "1.3.1"
 
+"node-gyp-build@^4.3.0":
+  "integrity" "sha512-24vnklJmyRS8ViBNI8KbtK/r/DmXQMRiOMXTNz2nrTnAYUwjmEEbnnpB/+kt+yWRv73bPsSPRFddrcIbAxSiMQ=="
+  "resolved" "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.6.1.tgz"
+  "version" "4.6.1"
+
 "node-gyp@8.x":
   "integrity" "sha512-olTJRgUtAb/hOXG0E93wZDs5YiJlgbXxTwQAFHyNlRsXQnYzUaF2aGgujZbw+hR8aF4ZG/rST57bWMWD16jr9w=="
   "resolved" "https://registry.npmjs.org/node-gyp/-/node-gyp-8.4.1.tgz"
@@ -7987,11 +8020,6 @@
     "registry-url" "^5.0.0"
     "semver" "^7.3.5"
 
-"packet-reader@1.0.0":
-  "integrity" "sha512-HAKu/fG3HpHFO0AA8WE8q2g+gBJaZ9MG7fcKk+IJPLTGAD6Psw4443l+9DGRbOIh3/aXr7Phy0TjilYivJo5XQ=="
-  "resolved" "https://registry.npmjs.org/packet-reader/-/packet-reader-1.0.0.tgz"
-  "version" "1.0.0"
-
 "param-case@^2.1.0":
   "integrity" "sha512-eQE845L6ot89sk2N8liD8HAuH4ca6Vvr7VWAWwt7+kvvG5aBcPmmphQ68JsEG2qa9n1TykS2DLeMt363AAH8/w=="
   "resolved" "https://registry.npmjs.org/param-case/-/param-case-2.1.1.tgz"
@@ -8200,12 +8228,7 @@
   "resolved" "https://registry.npmjs.org/pause/-/pause-0.0.1.tgz"
   "version" "0.0.1"
 
-"pg-cloudflare@^1.1.1":
-  "integrity" "sha512-xWPagP/4B6BgFO+EKz3JONXv3YDgvkbVrGw2mTo3D6tVDQRh1e7cqVGvyR3BE+eQgAvx1XhW/iEASj4/jCWl3Q=="
-  "resolved" "https://registry.npmjs.org/pg-cloudflare/-/pg-cloudflare-1.1.1.tgz"
-  "version" "1.1.1"
-
-"pg-connection-string@^2.6.1", "pg-connection-string@2.6.1":
+"pg-connection-string@2.6.1":
   "integrity" "sha512-w6ZzNu6oMmIzEAYVw+RLK0+nqHPt8K3ZnknKi+g48Ak2pr3dtljJW3o+D/n2zzCG07Zoe9VOX3aiKpj+BN0pjg=="
   "resolved" "https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-2.6.1.tgz"
   "version" "2.6.1"
@@ -8215,17 +8238,12 @@
   "resolved" "https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz"
   "version" "1.0.1"
 
-"pg-pool@^3.6.1":
-  "integrity" "sha512-jizsIzhkIitxCGfPRzJn1ZdcosIt3pz9Sh3V01fm1vZnbnCMgmGl5wvGGdNN2EL9Rmb0EcFoCkixH4Pu+sP9Og=="
-  "resolved" "https://registry.npmjs.org/pg-pool/-/pg-pool-3.6.1.tgz"
-  "version" "3.6.1"
-
-"pg-protocol@^1.6.0":
+"pg-protocol@*":
   "integrity" "sha512-M+PDm637OY5WM307051+bsDia5Xej6d9IR4GwJse1qA1DIhiKlksvrneZOYQq42OM+spubpcNYEo2FcKQrDk+Q=="
   "resolved" "https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.6.0.tgz"
   "version" "1.6.0"
 
-"pg-types@^2.1.0":
+"pg-types@^2.2.0":
   "integrity" "sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA=="
   "resolved" "https://registry.npmjs.org/pg-types/-/pg-types-2.2.0.tgz"
   "version" "2.2.0"
@@ -8235,28 +8253,6 @@
     "postgres-bytea" "~1.0.0"
     "postgres-date" "~1.0.4"
     "postgres-interval" "^1.1.0"
-
-"pg@^8.11.1", "pg@>=8.0":
-  "integrity" "sha512-utdq2obft07MxaDg0zBJI+l/M3mBRfIpEN3iSemsz0G5F2/VXx+XzqF4oxrbIZXQxt2AZzIUzyVg/YM6xOP/WQ=="
-  "resolved" "https://registry.npmjs.org/pg/-/pg-8.11.1.tgz"
-  "version" "8.11.1"
-  dependencies:
-    "buffer-writer" "2.0.0"
-    "packet-reader" "1.0.0"
-    "pg-connection-string" "^2.6.1"
-    "pg-pool" "^3.6.1"
-    "pg-protocol" "^1.6.0"
-    "pg-types" "^2.1.0"
-    "pgpass" "1.x"
-  optionalDependencies:
-    "pg-cloudflare" "^1.1.1"
-
-"pgpass@1.x":
-  "integrity" "sha512-FdW9r/jQZhSeohs1Z3sI1yxFQNFvMcnmfuj4WBMUTxOrAyLMaTcE1aAMBiTlbMNaXvBCQuVi0R7hd8udDSP7ug=="
-  "resolved" "https://registry.npmjs.org/pgpass/-/pgpass-1.0.5.tgz"
-  "version" "1.0.5"
-  dependencies:
-    "split2" "^4.1.0"
 
 "picocolors@^1.0.0":
   "integrity" "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ=="
@@ -9697,11 +9693,6 @@
   dependencies:
     "extend-shallow" "^3.0.0"
 
-"split2@^4.1.0":
-  "integrity" "sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg=="
-  "resolved" "https://registry.npmjs.org/split2/-/split2-4.2.0.tgz"
-  "version" "4.2.0"
-
 "sprintf-js@~1.0.2":
   "integrity" "sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g=="
   "resolved" "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
@@ -9817,6 +9808,11 @@
   "integrity" "sha512-IsdXZPjRiOnaczoQaXI6xfxnFqUhR70uW1VCRbY4a3hEmmocpCpIUGx7TiHdNPJOZuDiueTgEIQ4V5XEru9Lvw=="
   "resolved" "https://registry.npmjs.org/strapi-plugin-populate-deep/-/strapi-plugin-populate-deep-2.0.0.tgz"
   "version" "2.0.0"
+
+"strapi-plugin-website-preview@^1.0.5":
+  "integrity" "sha512-CxArigfFz0SSbU4hX10sEjX1T/y0EHxlHkad+0V9rDgdoZQDU8/F7So+U64YeqE+z5/y7Hmfepxb8i2tdNcr3Q=="
+  "resolved" "https://registry.npmjs.org/strapi-plugin-website-preview/-/strapi-plugin-website-preview-1.0.5.tgz"
+  "version" "1.0.5"
 
 "stream-chain@^2.2.5", "stream-chain@2.2.5":
   "integrity" "sha512-1TJmBx6aSWqZ4tx7aTpBDXK0/e2hhcNSTV8+CbFJtDjbb+I1mZ8lHit0Grw9GRT+6JbIrrDd8esncgBi8aBXGA=="
@@ -10419,6 +10415,13 @@
   "integrity" "sha512-aggiKfEEubv3UwRNqTzLInZpAOmKzwdHqEBmW/hBA/mt99eg+b4VrX6i+IRLxU8+WJYfa33rGwRseg4eElUgsQ=="
   "resolved" "https://registry.npmjs.org/user-home/-/user-home-1.1.1.tgz"
   "version" "1.1.1"
+
+"utf-8-validate@>=5.0.2", "utf-8-validate@6.0.3":
+  "integrity" "sha512-uIuGf9TWQ/y+0Lp+KGZCMuJWc3N9BHA+l/UmHd/oUHwJJDeysyTRxNQVkbzsIWfGFbRe3OcgML/i0mvVRPOyDA=="
+  "resolved" "https://registry.npmjs.org/utf-8-validate/-/utf-8-validate-6.0.3.tgz"
+  "version" "6.0.3"
+  dependencies:
+    "node-gyp-build" "^4.3.0"
 
 "util-deprecate@^1.0.1", "util-deprecate@^1.0.2", "util-deprecate@~1.0.1":
   "integrity" "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw=="
