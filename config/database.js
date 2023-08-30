@@ -93,26 +93,7 @@ const path = require("path");
     },
   };
 }; */
-/* module.exports = ({ env }) => ({
-  defaultConnection: "default",
-  connections: {
-    default: {
-      connector: "bookshelf",
-      settings: {
-        client: "postgres",
-        host: env("POSTGRES_HOST", "localhost"), // Use your PostgreSQL host from environment variable
-        port: env.int("DATABASE_PORT", 5432), // You may need to adjust the port if it's different
-        database: env("POSTGRES_DATABASE", "your-database-name"), // Use POSTGRES_DATABASE as the database name
-        username: env("POSTGRES_USER", "your-username"), // Use POSTGRES_USER as the username
-        password: env("POSTGRES_PASSWORD", "your-password"), // Use POSTGRES_PASSWORD as the password
-        ssl: env.bool("DATABASE_SSL", false), // Set this to true if you need SSL
-      },
-      options: {
-        ssl: env.bool("DATABASE_SSL", false), // Set this to true if you need SSL
-      },
-    },
-  },
-}); */
+
 // strapi-api/config/database.js
 module.exports = ({ env }) => ({
   connection: {
